@@ -12,7 +12,7 @@ export const SendEmail = async ({
 }) => {
   try {
     const datas = { name, email, phone, subject, message };
-    let res = await axios.post(`https://boiling-oasis-97975.herokuapp.com/send`, datas);
+    let res = await axios.post(`${process.env.REACT_APP_PRODUCTION_LOCAL}/send`, datas);
     if (res) {
       setSend(res.data);
     }
