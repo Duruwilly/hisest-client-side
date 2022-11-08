@@ -1,5 +1,6 @@
 const validateEmail = ({ email, setEmailError }) => {
-  const emailRegular = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  const emailRegular =
+    /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   return email && !email.match(emailRegular)
     ? setEmailError("Email not valid")
     : setEmailError("");

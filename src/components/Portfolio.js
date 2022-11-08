@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import project1 from "../assets/images/homeProject1.jpeg";
 import project2 from "../assets/images/homeProject2.jpeg";
@@ -12,65 +12,62 @@ import "owl.carousel";
 import "../assets/vendors/bootstrap/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
-
-
 const Portfolio = () => {
- const options = {
-   loop: true,
-   margin: 10,
-   nav: false,
-   smartSpeed: 500,
-   autoHeight: false,
-   autoplay: true,
-   dots: false,
-   autoplayTimeout: 6000,
-   responsive: {
-     0: {
-       items: 1,
-     },
-     600: {
-       items: 1,
-     },
-     750: {
-       items: 2,
-     },
-     1100: {
-       items: 3,
-     },
-     1350: {
-       items: 4,
-     },
-   },
- }; 
+  const options = {
+    loop: true,
+    margin: 10,
+    nav: false,
+    smartSpeed: 500,
+    autoHeight: false,
+    autoplay: true,
+    dots: false,
+    autoplayTimeout: 6000,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      750: {
+        items: 2,
+      },
+      1100: {
+        items: 3,
+      },
+      1350: {
+        items: 4,
+      },
+    },
+  };
 
-//  function jQueryCode() {
-//    var groups = {};
-//    $(".img-popup").each(function () {
-//      var id = parseInt($(this).attr("data-group"), 10);
- 
-//      if (!groups[id]) {
-//        groups[id] = [];
-//      }
- 
-//      groups[id].push(this);
-//    });
- 
-//    $.each(groups, function () {
-//      $(this).MagnificPopup({
-//        type: "image",
-//        closeOnContentClick: true,
-//        closeBtnInside: false,
-//        gallery: {
-//          enabled: true,
-//        },
-//      });
-//    });
-//  }
+  //  function jQueryCode() {
+  //    var groups = {};
+  //    $(".img-popup").each(function () {
+  //      var id = parseInt($(this).attr("data-group"), 10);
 
-//  useEffect(() => {
-//   jQueryCode()
-//  }, [])
+  //      if (!groups[id]) {
+  //        groups[id] = [];
+  //      }
 
+  //      groups[id].push(this);
+  //    });
+
+  //    $.each(groups, function () {
+  //      $(this).MagnificPopup({
+  //        type: "image",
+  //        closeOnContentClick: true,
+  //        closeBtnInside: false,
+  //        gallery: {
+  //          enabled: true,
+  //        },
+  //      });
+  //    });
+  //  }
+
+  //  useEffect(() => {
+  //   jQueryCode()
+  //  }, [])
 
   return (
     <section className="project-three">
@@ -103,7 +100,7 @@ const Portfolio = () => {
                   </div>
                   <div className="content-box">
                     <h3>
-                    Alluminium office <br /> partitioning
+                      Alluminium office <br /> partitioning
                     </h3>
                   </div>
                 </div>
@@ -120,9 +117,7 @@ const Portfolio = () => {
                     </a> */}
                   </div>
                   <div className="content-box">
-                    <h3>
-                      Construction of trailer park
-                    </h3>
+                    <h3>Construction of trailer park</h3>
                   </div>
                 </div>
               </div>
@@ -138,9 +133,7 @@ const Portfolio = () => {
                     </a> */}
                   </div>
                   <div className="content-box">
-                    <h3>
-                      Roof restoration, installation and maintenance
-                    </h3>
+                    <h3>Roof restoration, installation and maintenance</h3>
                   </div>
                 </div>
               </div>
@@ -155,29 +148,30 @@ const Portfolio = () => {
                     </a> */}
                   </div>
                   <div className="content-box">
-                    <h3>
-                      Gate house Renovation
-                    </h3>
+                    <h3>Gate house Renovation</h3>
                   </div>
                 </div>
               </div>
               {/* project ends */}
-
             </OwlCarousel>
           </div>
           <div className="col-xl-12">
-           <div className="project-three-more-project-btn text-center">
-            <div className="btn-box">
-             <Link to='/projects' className='thm-btn' data-text="View All Projects">
-              View All Projects
-             </Link>
+            <div className="project-three-more-project-btn text-center">
+              <div className="btn-box">
+                <Link
+                  to="/projects"
+                  className="thm-btn"
+                  data-text="View All Projects"
+                >
+                  View All Projects
+                </Link>
+              </div>
             </div>
-           </div>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Portfolio
+export default Portfolio;

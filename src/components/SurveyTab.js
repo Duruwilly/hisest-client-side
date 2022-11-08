@@ -1,10 +1,10 @@
 import React from "react";
-import survery1 from '../assets/images/survey1.jpeg'
-import survery2 from '../assets/images/survey2.jpeg'
-import survery3 from '../assets/images/survey4.jpeg'
-import survery4 from '../assets/images/survey6.jpeg'
-import survery5 from '../assets/images/survey7.jpeg'
-import survery6 from '../assets/images/survey8.jpeg'
+import survery1 from "../assets/images/survey1.jpeg";
+import survery2 from "../assets/images/survey2.jpeg";
+import survery3 from "../assets/images/survey4.jpeg";
+import survery4 from "../assets/images/survey6.jpeg";
+import survery5 from "../assets/images/survey7.jpeg";
+import survery6 from "../assets/images/survey8.jpeg";
 
 const SurveyTab = () => {
   return (

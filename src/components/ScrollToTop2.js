@@ -25,14 +25,11 @@ const ScrollToTop2 = () => {
     <>
       {showScrollToTop && (
         <div className="scroll-to-top" onClick={scrollTop}>
-        <FaAngleUp
-          onClick={scrollTop}
-          className='scroll-top'
-          />
-          </div>
+          <FaAngleUp onClick={scrollTop} className="scroll-top" />
+        </div>
       )}
     </>
   );
 };
 
-export default ScrollToTop2
+export default ScrollToTop2;

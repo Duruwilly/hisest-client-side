@@ -99,15 +99,17 @@ const HalfProjects = () => {
         </div>
 
         <div className="row filter-layout masonary-layout">
-            {activeTab === "tab1" ? (
-              <SurveyTab />
-            ) : activeTab === "tab2" ? (
-              <Roofing />
-            ) : activeTab === "tab3" ? (
-              <CivilTab />
-            ) : activeTab === "tab4" ? (
-              <ElectricalTab />
-            ) : <MechanicalTab />}
+          {activeTab === "tab1" ? (
+            <SurveyTab />
+          ) : activeTab === "tab2" ? (
+            <Roofing />
+          ) : activeTab === "tab3" ? (
+            <CivilTab />
+          ) : activeTab === "tab4" ? (
+            <ElectricalTab />
+          ) : (
+            <MechanicalTab />
+          )}
           {/* end project */}
         </div>
       </div>

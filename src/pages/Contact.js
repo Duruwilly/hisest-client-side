@@ -59,8 +59,6 @@ const Contact = () => {
       subject: "",
       message: "",
     });
-    
-    
   };
 
   return (

@@ -9,12 +9,11 @@ import installation from "../assets/images/installation2.jpeg";
 import civilWork from "../assets/images/civil.jpeg";
 
 const FullProjects = () => {
+  const [activeTab, setActiveTab] = useState("tab1");
 
-  const [activeTab, setActiveTab] = useState('tab1');
-
- const toggleTab = (index) => {
-   setActiveTab(index);
- };
+  const toggleTab = (index) => {
+    setActiveTab(index);
+  };
 
   return (
     <section className="project-one-sec">
@@ -38,7 +37,8 @@ const FullProjects = () => {
             {/* project menu box */}
             <div className="project-one__menu-box">
               <ul className="project-filter clearfix post-filter has-dynamic-filters-counter">
-                <li data-filter=".filter-item"
+                <li
+                  data-filter=".filter-item"
                   className={activeTab === "tab1" ? "active" : ""}
                   onClick={() => toggleTab("tab1")}
                 >
@@ -47,7 +47,8 @@ const FullProjects = () => {
                     <i className="icon-hammer"></i> Civil
                   </span>
                 </li>
-                <li data-filter=".filter-item"
+                <li
+                  data-filter=".filter-item"
                   className={activeTab === "tab2" ? "active" : ""}
                   onClick={() => toggleTab("tab2")}
                 >
@@ -56,7 +57,8 @@ const FullProjects = () => {
                     <i className="icon-hammer"></i> Roofing
                   </span>
                 </li>
-                <li data-filter=".filter-item"
+                <li
+                  data-filter=".filter-item"
                   className={activeTab === "tab3" ? "active" : ""}
                   onClick={() => toggleTab("tab3")}
                 >
@@ -65,7 +67,8 @@ const FullProjects = () => {
                     <i className="icon-hammer"></i> Mechanical
                   </span>
                 </li>
-                <li data-filter=".filter-item"
+                <li
+                  data-filter=".filter-item"
                   className={activeTab === "tab4" ? "active" : ""}
                   onClick={() => toggleTab("tab4")}
                 >
@@ -74,7 +77,8 @@ const FullProjects = () => {
                     <i className="icon-hammer"></i> Electrical
                   </span>
                 </li>
-                <li data-filter=".filter-item"
+                <li
+                  data-filter=".filter-item"
                   className={activeTab === "tab5" ? "active" : ""}
                   onClick={() => toggleTab("tab5")}
                 >

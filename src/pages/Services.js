@@ -13,7 +13,7 @@ import Heroe1 from "../assets/images/heroe1.jpg";
 import service2 from "../assets/images/trailer-park.jpeg";
 import Heroe2 from "../assets/images/heroe2.jpg";
 import Heroe3 from "../assets/images/heroe3.jpg";
-import Service from '../assets/images/services.jpg'
+import Service from "../assets/images/services.jpg";
 import procurement from "../assets/images/procurement.jpg";
 import procurement2 from "../assets/images/procurement4.jpeg";
 import services3 from "../assets/images/steel.jpg";
@@ -95,7 +95,7 @@ const Services = () => {
                   <div className="page-header__menu">
                     <ul>
                       <li>
-                        <Link to='/'>Home</Link>
+                        <Link to="/">Home</Link>
                       </li>
                       <li>Services</li>
                     </ul>

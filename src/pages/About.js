@@ -273,8 +273,8 @@ const About = () => {
 
                 <div className="about__single-content">
                   <div className="services-one__single-content-title">
-                  <h2>Oluwabunmi Samuel (DIP. MASCOM, B.Ed)</h2>
-                  <p>Head</p>
+                    <h2>Oluwabunmi Samuel (DIP. MASCOM, B.Ed)</h2>
+                    <p>Head</p>
                   </div>
                 </div>
               </div>
@@ -294,8 +294,8 @@ const About = () => {
 
                 <div className="about__single-content">
                   <div className="services-one__single-content-title">
-                  <h2>Oloruntobi Oyedeji</h2>
-                  <p>Head</p>
+                    <h2>Oloruntobi Oyedeji</h2>
+                    <p>Head</p>
                   </div>
                 </div>
               </div>

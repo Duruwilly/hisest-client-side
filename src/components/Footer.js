@@ -136,8 +136,8 @@ const Footer = () => {
                     <div class="footer-widget__column footer-widget__services">
                       <h2 class="footer-widget__title">Newsletter</h2>
                       <Newsletter />
-                      </div>
-                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -152,7 +152,8 @@ const Footer = () => {
               <div class="footer-one__bottom-inner">
                 <div class="footer-one__bottom-text">
                   <p>
-                    Copyright &copy; 2022 <Link to='/'>Hisest</Link>. All rights reserved.
+                    Copyright &copy; 2022 <Link to="/">Hisest</Link>. All rights
+                    reserved.
                   </p>
                 </div>
 

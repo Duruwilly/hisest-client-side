@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
-import { BsArrowDownShort } from 'react-icons/bs'
+import { BsArrowDownShort } from "react-icons/bs";
 import Logo from "../assets/images/HisestLogoWhite.png";
 
 const Mobilenav = ({ toggle }) => {
   return (
     <div className="mobile-nav_content">
-      
-        <Link to="/" className="logo-img">
-          <img src={Logo} alt="logo" className='logo'/>
-        </Link>
-      
+      <Link to="/" className="logo-img">
+        <img src={Logo} alt="logo" className="logo" />
+      </Link>
+
       <span className="mobile-nav__close" onClick={toggle}>
         <FaTimes />
       </span>
@@ -27,7 +26,9 @@ const Mobilenav = ({ toggle }) => {
             <Link to="/services">Services</Link>
           </li>
           <li className="dropdown">
-            <span>Subsidiaries <BsArrowDownShort /></span>
+            <span>
+              Subsidiaries <BsArrowDownShort />
+            </span>
             <ul>
               <li>
                 <Link to="/senitechplus">Senitechplus</Link>

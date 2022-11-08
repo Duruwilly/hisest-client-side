@@ -99,7 +99,8 @@ const Teams = () => {
                   <div class="services-one__single-content">
                     <div class="services-one__single-content-title">
                       <h2>
-                      General Manager: Olaseni Emmanuel. BSc, Surv&Geo,ANIS, Mosha(UK)
+                        General Manager: Olaseni Emmanuel. BSc, Surv&Geo,ANIS,
+                        Mosha(UK)
                       </h2>
                     </div>
                   </div>
@@ -168,9 +169,7 @@ const Teams = () => {
                   </div>
                   <div class="services-one__single-content">
                     <div class="services-one__single-content-title">
-                      <h2>
-                      Godspower Osarumese
-                      </h2>
+                      <h2>Godspower Osarumese</h2>
                     </div>
                   </div>
                 </div>

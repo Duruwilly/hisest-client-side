@@ -1,8 +1,8 @@
 import React from "react";
-import roof1 from '../assets/images/roof1.jpeg'
-import roof2 from '../assets/images/roof2.jpeg'
-import civil3 from '../assets/images/civil4.jpeg'
-import civil4 from '../assets/images/project2.jpeg'
+import roof1 from "../assets/images/roof1.jpeg";
+import roof2 from "../assets/images/roof2.jpeg";
+import civil3 from "../assets/images/civil4.jpeg";
+import civil4 from "../assets/images/project2.jpeg";
 
 const CivilTab = () => {
   return (

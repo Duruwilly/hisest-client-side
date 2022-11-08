@@ -27,11 +27,7 @@ const Newsletter = () => {
             value={val}
             onChange={(e) => setVal(e.target.value)}
           />
-          <button
-            type="submit"
-            className="thm-btn"
-            data-text="Subscribe"
-          >
+          <button type="submit" className="thm-btn" data-text="Subscribe">
             Subscribe
           </button>
         </form>
