@@ -1,12 +1,4 @@
 import React, { useState } from "react";
-import Project1 from "../assets/images/project1.jpeg";
-import Project2 from "../assets/images/project2.jpeg";
-import Project5 from "../assets/images/projects5.jpeg";
-import Project6 from "../assets/images/projects6.jpeg";
-import Project3 from "../assets/images/services3.jpeg";
-import Project4 from "../assets/images/services4.jpeg";
-import installation from "../assets/images/installation2.jpeg";
-import civilWork from "../assets/images/civil.jpeg";
 import CivilTab from "./CivilTab";
 import SurveyTab from "./SurveyTab";
 import Roofing from "./Roofing";

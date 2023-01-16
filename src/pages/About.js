@@ -12,12 +12,9 @@ import WOW from "wowjs";
 import Heroe1 from "../assets/images/heroe1.jpg";
 import Heroe2 from "../assets/images/heroe2.jpg";
 import Heroe3 from "../assets/images/heroe3.jpg";
-import Project1 from "../assets/images/project1.jpeg";
-import Project2 from "../assets/images/project2.jpeg";
-import Project3 from "../assets/images/trailer-park.jpeg";
-import installation from "../assets/images/installation2.jpeg";
-import AbtProjectBg from "../assets/images/project/project-v1-img1.jpg";
 import Projects from "../components/HalfProjects";
+import HisestMd from "../assets/images/hisest-md-short.jpeg";
+import HisestChairman from "../assets/images/hisest-chairman-short.jpeg";
 
 const About = () => {
   useEffect(() => {
@@ -245,7 +242,7 @@ const About = () => {
             >
               <div className="services-one__single">
                 <div className="services-one__single-img">
-                  <img src={Heroe2} alt="" />
+                  <img src={HisestChairman} alt="" style={{ height: "18rem"}} />
                 </div>
 
                 <div className="about__single-content">
@@ -268,13 +265,14 @@ const About = () => {
             >
               <div className="services-one__single">
                 <div className="services-one__single-img">
-                  <img src={Heroe3} alt="" />
+                  <img src={HisestMd} alt="" style={{ height: "18rem"}} />
                 </div>
 
                 <div className="about__single-content">
                   <div className="services-one__single-content-title">
-                    <h2>Oluwabunmi Samuel (DIP. MASCOM, B.Ed)</h2>
-                    <p>Head</p>
+                    <h2>Managing Director: Surv. Olaseni Adebola Emmanuel. BSc,
+                        Surv&Geo,ANIS, OSHA(UK)</h2>
+                    <p>Managing Director</p>
                   </div>
                 </div>
               </div>

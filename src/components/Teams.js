@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import Heroe1 from "../assets/images/heroe1.jpg";
-import Heroe2 from "../assets/images/heroe2.jpg";
-import Heroe3 from "../assets/images/heroe3.jpg";
+import HisestMd from "../assets/images/hisest-md.jpeg";
+import staff1 from "../assets/images/Godspower.jpg";
+import staff2 from "../assets/images/hisest-secretary.jpeg";
+import HisestChairman from "../assets/images/hisest-chief.jpeg";
 import OwlCarousel from "react-owl-carousel";
 import "../assets/vendors/owl-carousel/owl.carousel.min.css";
 import "../assets/vendors/owl-carousel/owl.theme.default.min.css";
@@ -73,13 +73,13 @@ const Teams = () => {
               >
                 <div className="services-one__single">
                   <div className="services-one__single-img">
-                    <img src={Heroe1} alt="" />
+                    <img src={HisestChairman} alt="" />
                   </div>
                   <div class="services-one__single-content">
                     <div class="services-one__single-content-title">
                       <h2>
-                        Chief Engr. Bankole Akintemihin (B.Tech Eng, MNSE,
-                        COREN)
+                        Chairman: High Chief Engr. Bankole Akintemihin B.sc Eng,
+                        MNSE, COREN Reg
                       </h2>
                     </div>
                   </div>
@@ -94,13 +94,13 @@ const Teams = () => {
               >
                 <div className="services-one__single">
                   <div className="services-one__single-img">
-                    <img src={Heroe1} alt="" />
+                    <img src={HisestMd} alt="" style={{ height: "24.5rem" }} />
                   </div>
                   <div class="services-one__single-content">
                     <div class="services-one__single-content-title">
                       <h2>
-                        General Manager: Olaseni Emmanuel. BSc, Surv&Geo,ANIS,
-                        Mosha(UK)
+                        Managing Director: Surv. Olaseni Adebola Emmanuel. BSc,
+                        Surv&Geo,ANIS, OSHA(UK)
                       </h2>
                     </div>
                   </div>
@@ -114,11 +114,11 @@ const Teams = () => {
               >
                 <div className="services-one__single">
                   <div className="services-one__single-img">
-                    <img src={Heroe1} alt="" />
+                    <img src={staff1} alt="" style={{ height: "27rem" }} />
                   </div>
                   <div class="services-one__single-content">
                     <div class="services-one__single-content-title">
-                      <h2>Oluwabunmi Samuel (DIP. MASCOM, B.Ed)</h2>
+                      <h2>Godspower Osarumese</h2>
                     </div>
                   </div>
                 </div>
@@ -131,45 +131,11 @@ const Teams = () => {
               >
                 <div className="services-one__single">
                   <div className="services-one__single-img">
-                    <img src={Heroe1} alt="" />
+                    <img src={staff2} alt="" style={{ height: "27rem" }} />
                   </div>
                   <div class="services-one__single-content">
                     <div class="services-one__single-content-title">
-                      <h2>Olaseni Tiraoluwa (HND Acct.)</h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* team 5 */}
-              <div
-                className="project-three__single wow fadeInUp"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="services-one__single">
-                  <div className="services-one__single-img">
-                    <img src={Heroe1} alt="" />
-                  </div>
-                  <div class="services-one__single-content">
-                    <div class="services-one__single-content-title">
-                      <h2>Oloruntobi Oyedeji</h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* team 6 */}
-              <div
-                className="project-three__single wow fadeInUp"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="services-one__single">
-                  <div className="services-one__single-img">
-                    <img src={Heroe1} alt="" />
-                  </div>
-                  <div class="services-one__single-content">
-                    <div class="services-one__single-content-title">
-                      <h2>Godspower Osarumese</h2>
+                      <h2>General Secretary</h2>
                     </div>
                   </div>
                 </div>

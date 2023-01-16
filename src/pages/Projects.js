@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import projectBg from "../assets/images/projectBg.jpeg";
-import FullProjects from "../components/FullProject";
+import HalfProjects from "../components/HalfProjects";
 
 const Projects = () => {
   return (
@@ -34,7 +34,7 @@ const Projects = () => {
       </section>
       {/* end project header */}
 
-      <FullProjects />
+      <HalfProjects />
     </>
   );
 };

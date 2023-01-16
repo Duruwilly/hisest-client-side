@@ -2880,7 +2880,6 @@ button {
     display: block;
     width: 312px;
     padding: 13px 20px 11px;
-    margin-bottom: 22px;
     overflow: hidden;
     z-index: 1;
 }
@@ -9759,7 +9758,6 @@ button {
     padding: 15px;
     border-top-right-radius: 200px;
     border-bottom-left-radius: 200px;
-    overflow: hidden;
 }
 
 .about-three__img .inner {

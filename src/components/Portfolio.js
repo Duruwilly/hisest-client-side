@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import project1 from "../assets/images/homeProject1.jpeg";
 import project2 from "../assets/images/homeProject2.jpeg";
 import project3 from "../assets/images/homeProject3.jpeg";
-import project4 from "../assets/images/homeProject4.jpeg";
 import project5 from "../assets/images/homeProject5.jpeg";
 import OwlCarousel from "react-owl-carousel";
 import "../assets/vendors/owl-carousel/owl.carousel.min.css";
@@ -40,34 +39,6 @@ const Portfolio = () => {
       },
     },
   };
-
-  //  function jQueryCode() {
-  //    var groups = {};
-  //    $(".img-popup").each(function () {
-  //      var id = parseInt($(this).attr("data-group"), 10);
-
-  //      if (!groups[id]) {
-  //        groups[id] = [];
-  //      }
-
-  //      groups[id].push(this);
-  //    });
-
-  //    $.each(groups, function () {
-  //      $(this).MagnificPopup({
-  //        type: "image",
-  //        closeOnContentClick: true,
-  //        closeBtnInside: false,
-  //        gallery: {
-  //          enabled: true,
-  //        },
-  //      });
-  //    });
-  //  }
-
-  //  useEffect(() => {
-  //   jQueryCode()
-  //  }, [])
 
   return (
     <section className="project-three">

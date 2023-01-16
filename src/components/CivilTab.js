@@ -1,8 +1,8 @@
 import React from "react";
 import civil1 from "../assets/images/civil.jpeg";
 import civil2 from "../assets/images/civil3.jpeg";
-import civil3 from "../assets/images/civil4.jpeg";
 import civil4 from "../assets/images/project2.jpeg";
+import civil5 from "../assets/images/civil6.jpeg";
 
 const CivilTab = () => {
   return (
@@ -41,11 +41,11 @@ const CivilTab = () => {
         <div className="project-one__single">
           <div className="project-one__single-img">
             <div className="inner">
-              <img src={civil3} alt="" />
+              <img src={civil5} alt="" />
             </div>
             <div className="content-box">
-              <h2>Installation</h2>
-              <p>Installation of public pipes</p>
+              <h2>Civil Construction</h2>
+              <p>Construction of retaining wall for trailer Park</p>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import "../assets/vendors/animate/custom-animate.css";
 import "../assets/vendors/bootstrap/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import Logo from "../assets/images/HisestLogoWhite.png";
 import Newsletter from "./Newsletter";
 
@@ -48,13 +48,12 @@ const Footer = () => {
                           <li>
                             <a href="#" target="_blank">
                               <span>
-                                {" "}
                                 <FaFacebookF />
                               </span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" target="_blank">
+                            <a href="https://twitter.com/Hisestconsult" target="_blank">
                               <span>
                                 <FaTwitter />
                               </span>
@@ -66,7 +65,14 @@ const Footer = () => {
                                 <FaInstagram />
                               </span>
                             </a>
-                          </li>{" "}
+                          </li>
+                          <li>
+                            <a href="https://linkedin.com/company/hisest-consult-and-services-limited" target="_blank">
+                              <span>
+                                <FaLinkedinIn />
+                              </span>
+                            </a>
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -152,7 +158,7 @@ const Footer = () => {
               <div class="footer-one__bottom-inner">
                 <div class="footer-one__bottom-text">
                   <p>
-                    Copyright &copy; 2022 <Link to="/">Hisest</Link>. All rights
+                    Copyright &copy; 2023 <Link to="/">Hisest</Link>. All rights
                     reserved.
                   </p>
                 </div>

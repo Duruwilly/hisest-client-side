@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { BsArrowDownShort } from "react-icons/bs";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../assets/images/HisestLogo.png";
 import Mobilenav from "./Mobilenav";
 
@@ -32,7 +32,7 @@ const Navbar = () => {
             <li>
               <Link to="/services">Services</Link>
             </li>
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <span>
                 Subsidiaries <BsArrowDownShort />
               </span>
@@ -44,7 +44,7 @@ const Navbar = () => {
                   <Link to="/caramous-geospatial">Caramos geospatial</Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
               <Link to="/projects">Projects</Link>
             </li>

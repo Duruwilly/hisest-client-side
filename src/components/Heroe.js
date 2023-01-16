@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Heroe1 from "../assets/images/heroe1.jpg";
 import Heroe2 from "../assets/images/heroe2.jpg";
