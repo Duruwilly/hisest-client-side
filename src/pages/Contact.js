@@ -52,7 +52,7 @@ const Contact = () => {
       SendEmail({ name, email, phone, subject, message, setSend });
       toast.success("Message sent successfully");
     }
-    setFormData({
+    return setFormData({
       name: "",
       email: "",
       phone: "",

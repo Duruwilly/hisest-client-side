@@ -4,6 +4,7 @@ import "../assets/vendors/animate/custom-animate.css";
 import Heroe1 from "../assets/images/heroe1.jpg";
 import Heroe2 from "../assets/images/heroe2.jpg";
 import Heroe3 from "../assets/images/heroe3.jpg";
+import Client1 from "../assets/images/client1.jpeg";
 import OwlCarousel from "react-owl-carousel";
 import "../assets/vendors/owl-carousel/owl.carousel.min.css";
 import "../assets/vendors/owl-carousel/owl.theme.default.min.css";
@@ -91,18 +92,18 @@ const Testimonials = () => {
                   <FaQuoteRight />
                 </div>
                 <div className="img-box">
-                  <img src={Heroe1} alt="#" />
+                  <img src={Client1} alt="#" />
                 </div>
                 <div className="testimonials-three__single-inner">
                   <div className="title-box">
-                    <h3>Johm Smith</h3>
-                    <span>CEO at laboratory</span>
+                    <h3>Ojolo Olufemi</h3>
+                    <span>CEO Grey Builder Limited</span>
                   </div>
                   <div className="text-box">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Id incidunt odit nobis nisi totam perspiciatis veniam
-                      delectus nesciunt eligendi aspernatur?
+                      Hisest consult and services limited is our vendor in the
+                      area of civil construction and they have delivered quality
+                      services in all the project given to them.
                     </p>
                   </div>
                   <ul className="rating-box">
@@ -122,18 +123,18 @@ const Testimonials = () => {
                   <FaQuoteRight />
                 </div>
                 <div className="img-box">
-                  <img src={Heroe1} alt="#" />
+                  <img src={Client1} alt="#" />
                 </div>
                 <div className="testimonials-three__single-inner">
                   <div className="title-box">
-                    <h3>Johm Smith</h3>
-                    <span>CEO at laboratory</span>
+                    <h3>Ojolo Olufemi</h3>
+                    <span>CEO Grey Builder Limited</span>
                   </div>
                   <div className="text-box">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Id incidunt odit nobis nisi totam perspiciatis veniam
-                      delectus nesciunt eligendi aspernatur?
+                      Hisest consult and services limited is our vendor in the
+                      area of civil construction and they have delivered quality
+                      services in all the project given to them.
                     </p>
                   </div>
                   <ul className="rating-box">
@@ -153,18 +154,18 @@ const Testimonials = () => {
                   <FaQuoteRight />
                 </div>
                 <div className="img-box">
-                  <img src={Heroe1} alt="#" />
+                  <img src={Client1} alt="#" />
                 </div>
                 <div className="testimonials-three__single-inner">
                   <div className="title-box">
-                    <h3>Johm Smith</h3>
-                    <span>CEO at laboratory</span>
+                    <h3>Ojolo Olufemi</h3>
+                    <span>CEO Grey Builder Limited</span>
                   </div>
                   <div className="text-box">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Id incidunt odit nobis nisi totam perspiciatis veniam
-                      delectus nesciunt eligendi aspernatur?
+                      Hisest consult and services limited is our vendor in the
+                      area of civil construction and they have delivered quality
+                      services in all the project given to them.
                     </p>
                   </div>
                   <ul className="rating-box">
@@ -184,18 +185,18 @@ const Testimonials = () => {
                   <FaQuoteRight />
                 </div>
                 <div className="img-box">
-                  <img src={Heroe1} alt="#" />
+                  <img src={Client1} alt="#" />
                 </div>
                 <div className="testimonials-three__single-inner">
                   <div className="title-box">
-                    <h3>Johm Smith</h3>
-                    <span>CEO at laboratory</span>
+                    <h3>Ojolo Olufemi</h3>
+                    <span>CEO Grey Builder Limited</span>
                   </div>
                   <div className="text-box">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Id incidunt odit nobis nisi totam perspiciatis veniam
-                      delectus nesciunt eligendi aspernatur?
+                      Hisest consult and services limited is our vendor in the
+                      area of civil construction and they have delivered quality
+                      services in all the project given to them.
                     </p>
                   </div>
                   <ul className="rating-box">
@@ -215,49 +216,18 @@ const Testimonials = () => {
                   <FaQuoteRight />
                 </div>
                 <div className="img-box">
-                  <img src={Heroe1} alt="#" />
+                  <img src={Client1} alt="#" />
                 </div>
                 <div className="testimonials-three__single-inner">
                   <div className="title-box">
-                    <h3>Johm Smith</h3>
-                    <span>CEO at laboratory</span>
+                    <h3>Ojolo Olufemi</h3>
+                    <span>CEO Grey Builder Limited</span>
                   </div>
                   <div className="text-box">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Id incidunt odit nobis nisi totam perspiciatis veniam
-                      delectus nesciunt eligendi aspernatur?
-                    </p>
-                  </div>
-                  <ul className="rating-box">
-                    <li>
-                      <BsFillStarFill />
-                      <BsFillStarFill />
-                      <BsFillStarFill />
-                      <BsFillStarFill />
-                      <BsFillStarFill />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              {/* testimonial six */}
-              <div className="testimonials-three__single">
-                <div className="quote-icon">
-                  <FaQuoteRight />
-                </div>
-                <div className="img-box">
-                  <img src={Heroe1} alt="#" />
-                </div>
-                <div className="testimonials-three__single-inner">
-                  <div className="title-box">
-                    <h3>Johm Smith</h3>
-                    <span>CEO at laboratory</span>
-                  </div>
-                  <div className="text-box">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Id incidunt odit nobis nisi totam perspiciatis veniam
-                      delectus nesciunt eligendi aspernatur?
+                      Hisest consult and services limited is our vendor in the
+                      area of civil construction and they have delivered quality
+                      services in all the project given to them.
                     </p>
                   </div>
                   <ul className="rating-box">
